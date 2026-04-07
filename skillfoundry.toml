@@ -4,7 +4,13 @@ name = "Growth Context"
 agent_id = "growth"
 
 [frontdoor]
-pinned_paths = ['README.md', 'memory/mission.md', 'memory/profiles/growth.md']
+pinned_paths = [
+  'README.md',
+  'memory/mission.md',
+  'memory/profiles/growth.md',
+  'memory/findings/agenticmarket_account_state.md',
+  'memory/plans/agenticmarket_activation_readiness.md'
+]
 discoverable_paths = ['bundles', 'memory', 'artifacts']
 
 [promotion_policy]

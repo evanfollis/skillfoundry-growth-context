@@ -8,3 +8,5 @@ and go, but this context lineage remains the durable working mind.
 
 - `memory/mission.md`
 - `memory/profiles/growth.md`
+- `memory/findings/agenticmarket_account_state.md`
+- `memory/plans/agenticmarket_activation_readiness.md`
