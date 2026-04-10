@@ -6,7 +6,7 @@ Prepare the first listing-ready package for `launchpad-lint` on AgenticMarket.
 
 ## Current Preview Endpoint
 
-`https://launchpad.synaplex.ai`
+`https://skillfoundry.synaplex.ai/products/launchpad-lint/`
 
 ## Short Description
 

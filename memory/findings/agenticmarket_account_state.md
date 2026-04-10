@@ -42,8 +42,12 @@ automation.
 
 ## Current Deployment State
 
-- public preview URL: `https://launchpad.synaplex.ai`
-- public health check is live
+- canonical preview base URL:
+  `https://skillfoundry.synaplex.ai/products/launchpad-lint/`
+- public health check:
+  `https://skillfoundry.synaplex.ai/products/launchpad-lint/health`
+- public MCP endpoint:
+  `https://skillfoundry.synaplex.ai/products/launchpad-lint/mcp`
 - `/mcp` currently returns `401` without the preview secret, which is the intended
   pre-approval posture
 - after AgenticMarket approval, `AGENTICMARKET_SECRET` should replace the preview
