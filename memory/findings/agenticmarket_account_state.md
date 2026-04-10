@@ -40,6 +40,15 @@ automation.
 - We can still shape launch artifacts and validate external product readiness locally.
 - Real AgenticMarket activation validation requires topping up the account first.
 
+## Current Deployment State
+
+- public preview URL: `https://launchpad.synaplex.ai`
+- public health check is live
+- `/mcp` currently returns `401` without the preview secret, which is the intended
+  pre-approval posture
+- after AgenticMarket approval, `AGENTICMARKET_SECRET` should replace the preview
+  secret as the primary gateway for marketplace-routed calls
+
 ## Immediate Conclusion
 
 The next distribution bottleneck is not authentication. It is:

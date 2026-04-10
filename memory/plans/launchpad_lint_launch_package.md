@@ -4,6 +4,10 @@
 
 Prepare the first listing-ready package for `launchpad-lint` on AgenticMarket.
 
+## Current Preview Endpoint
+
+`https://launchpad.synaplex.ai`
+
 ## Short Description
 
 Audit MCP launch readiness and draft a marketplace-ready package for technical
