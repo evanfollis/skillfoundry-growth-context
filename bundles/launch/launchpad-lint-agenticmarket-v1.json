@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "bundle_id": "launchpad-lint-agenticmarket-v1",
+  "purpose": "Initial AgenticMarket launch package for Launchpad Lint.",
+  "owners": [
+    {
+      "name": "Skillfoundry Growth",
+      "contact": "agent://growth"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-designer-context://bundles/briefs/launchpad-lint-brief-v1.json",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Core product brief."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-pricing-context://bundles/pricing/launchpad-lint-pricing-v1.json",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Initial pricing recommendation."
+    },
+    {
+      "kind": "doc",
+      "locator": "skillfoundry-growth-context://memory/plans/launchpad_lint_launch_package.md",
+      "captured_at": "2026-04-06T00:00:00Z",
+      "notes": "Listing copy and activation framing."
+    }
+  ],
+  "content": [
+    {
+      "id": "channel",
+      "type": "summary",
+      "body": "Launch first on AgenticMarket with unlisted visibility and a narrow builder-facing positioning.",
+      "source_refs": [2]
+    },
+    {
+      "id": "short-description",
+      "type": "example",
+      "body": "Audit MCP launch readiness and draft a marketplace-ready package for technical builders.",
+      "source_refs": [2]
+    },
+    {
+      "id": "price",
+      "type": "fact",
+      "body": "Initial recommended price: `$0.09` per successful call.",
+      "source_refs": [1]
+    },
+    {
+      "id": "activation-metric",
+      "type": "constraint",
+      "body": "Judge early launch success by whether users complete one audit call and one draft call in the same session and report reduced launch ambiguity.",
+      "source_refs": [2]
+    }
+  ],
+  "promotion": {
+    "status": "candidate",
+    "reviewed_at": "2026-04-06T00:00:00Z",
+    "compatibility": "additive",
+    "notes": "First launch package bundle for Launchpad Lint on AgenticMarket."
+  }
+}
