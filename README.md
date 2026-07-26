@@ -12,3 +12,10 @@ and go, but this context lineage remains the durable working mind.
 - `memory/findings/launchpad_lint_channel_fit.md`
 - `memory/plans/agenticmarket_activation_readiness.md`
 - `memory/plans/launchpad_lint_launch_package.md`
+
+## Lifecycle and verification
+
+Maintained, not currently an independently deployed service. The fastest
+complete contract check is `make check`. See
+[docs/architecture.md](docs/architecture.md) for authority boundaries and the
+dated prompt-governance and runtime-path exceptions.
